@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="المساعد الصوتي"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="20dp"
+            android:text="🎤 اضغط وتكلم"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvHeard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="سمعتك: —"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="الرد: —"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="6dp"
+            android:text="أمثلة على الأوامر:\n• افتح الكاميرا\n• افتح واتساب\n• اتصل بأحمد / اتصل 0612345678\n• شغل الكشاف / اطفئ الكشاف\n• ارفع الصوت / اخفض الصوت / اكتم الصوت\n• ابحث عن وصفة كسكس\n• خذني إلى مطار محمد الخامس\n• مؤقت 5 دقائق\n• كم الساعة؟\n• كم البطارية؟\n• افتح الواي فاي / البلوتوث\n• شغل الموسيقى"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
